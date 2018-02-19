@@ -35,11 +35,27 @@ $app-direction: ltr;
 
 $colors: (
   primary:    #488aff,
-  secondary:  #32db64,
+  secondary:  #B8A787,
   danger:     #f53d3d,
   light:      #f4f4f4,
-  dark:       #222
+  dark:       #272316
 );
+
+//variables Home
+$tabs-md-background: color($colors, dark);
+$tabs-md-tab-color-active: color($colors, light);
+$tabs-md-tab-color-inactive: color($colors, secondary);
+$tabs-md-tab-color: color($colors, secondary);
+$tabs-md-tab-text-color: color($colors, secondary);
+
+//
+$tabs-ios-background: color($colors, dark);
+$tabs-ios-tab-color-active: color($colors, light);
+$tabs-ios-tab-color-inactive: color($colors, secondary);
+$tabs-ios-tab-color: color($colors, secondary);
+$tabs-ios-tab-text-color: color($colors, secondary);
+
+
 
 
 // App iOS Variables

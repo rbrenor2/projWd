@@ -1,3 +1,18 @@
 page-home {
+    .home-title {
+        text-align: center;
+        font-size: 70px;
+        font-family: 'Tangerine', cursive;
+        color: #B8A787;
+        padding-top: 30px;
+        line-height: 50px;
+    }
+
+    .fixed-content {
+        background: url("http://maikonedebora.com.br/wp-content/uploads/2016/04/Ensaio-Pr%C3%A9-Casamento-Raquel-e-Rafael-25.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: -55rem;
+    }
 
 }
